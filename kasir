@@ -1,0 +1,20 @@
+print("=======================")
+print("=== KASIR SEDERHANA ===")
+print("=======================")
+
+
+barang = input("Barang: ")
+harga_barang = int(input("Harga: Rp."))
+jumlah_barang = int(input("Jumlah: "))
+total = harga_barang * jumlah_barang
+
+print("\n-----------------------\n")
+print(f"{barang} ({jumlah_barang}pcs): Rp.{harga_barang}")
+print(f"Total: Rp.{total}")
+print("\n-----------------------\n")
+
+
+bayar = int(input("Bayar: Rp."))
+kembali = bayar - total
+print("-----------------------")
+print(f"Kembali: Rp.{kembali}")
